@@ -24,7 +24,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/coollazy/Image.git", from: "1.2.2"),
-        .package(url: "https://github.com/coollazy/ZIPFoundation.git", from: "0.9.20"),
+        .package(url: "https://github.com/weichsel/ZIPFoundation.git", exact: "0.9.20"),
         .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.21.0"),
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.65.0"),
     ],
